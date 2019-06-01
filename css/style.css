@@ -1,0 +1,63 @@
+html{
+	height: 10px;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	margin: 0;
+}
+
+.container{
+	min-height: 180rem;
+	background: url(../images/container/bg.jpg) no-repeat;
+	background-size: contain;
+}
+
+.container__blow{}
+
+.blow{
+    min-height: 121rem;
+    background: url(../images/blow/blow.png) no-repeat;
+    background-size: contain;
+}
+
+.blow__side-title{}
+
+.side-title{}
+
+.side-title__get-in-touch{}
+
+.side-title__brief-case{}
+
+.blow__blow-part{}
+
+.blow-part{}
+
+.blow-part__header{}
+
+.header{}
+
+.header__logo{}
+
+.header__menu{}
+
+.menu{}
+
+.menu__item{}
+
+.menu__link{}
+
+.blow-part__explore-button{}
+
+.explore-button{}
+
+
+
+
+
+
+
