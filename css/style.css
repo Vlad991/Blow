@@ -128,13 +128,38 @@ ul{
     text-decoration: none;
     color: #000;
     font-size: 1.3rem;
+    font-weight: 600;
     /* background: black; */
     border-radius: 1.2rem;
 }
 
-.blow-part__explore-button{}
+.menu__link:hover{
+	background: #000;
+	color: #fff;
+}
 
-.explore-button{}
+.blow-part__explore-button{
+    width: 18rem;
+    margin: 46rem auto 0;
+}
+
+.explore-button{
+	display: block;
+	width: 18rem;
+	height: 3.6rem;
+	line-height: 3.6rem;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	background: #000;
+	border-radius: 1.8rem;
+}
+
+.explore-button:hover{
+	box-shadow: 0 30px 20px rgba(0,0,0,0.5);
+}
 
 
 
