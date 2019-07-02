@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800&display=swap');
 
 html{
-	font-size: 10px;
+	font-size: 62.5%;
 	margin: 0;
 	padding: 0;
 	font-family: Montserrat;
@@ -17,8 +17,8 @@ ul{
 }
 
 .container{
-	height: 106.9rem;
-	width: 142.5rem;
+	height: 106.9em;
+	width: 142.5em;
 	background: url(../images/container/bg.jpg) no-repeat;
 	background-size: contain;
 	padding: 0.01%;
@@ -89,8 +89,8 @@ ul{
 
 .blow-part{
     width: 117.6rem;
-    height: 71.9rem;
-    padding: 33px 0;
+    height: 65.3rem;
+    padding: 3.3rem 0;
 }
 .container__fixed{
     max-width: 108.1rem;
@@ -159,6 +159,38 @@ ul{
 
 .explore-button:hover{
 	box-shadow: 0 30px 20px rgba(0,0,0,0.5);
+}
+
+@media screen and (min-width: 1680px) {
+	.container{
+		background-size: cover;
+		width: 100%;
+	}
+
+	.blow__side-title{
+		position: relative;
+		left: -32.4rem;
+		top: 32.3rem;
+	}
+
+	.blow__blow-part{
+		position: absolute;
+    	top: 17.4rem;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.container{
+		
+	}
+
+	.layout_none{
+		display: block;
+	}
+
+	.header__menu{
+
+	}
 }
 
 
